@@ -633,6 +633,6 @@ class __TwigTemplate_2677c4a4c7d3370f452be4921c692650c7581b784964b311e4fd0c9c9a8
     });
 
 /*]]>*/</script>
-", "@Twig/base_js.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/base_js.html.twig");
+", "@Twig/base_js.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/base_js.html.twig");
     }
 }

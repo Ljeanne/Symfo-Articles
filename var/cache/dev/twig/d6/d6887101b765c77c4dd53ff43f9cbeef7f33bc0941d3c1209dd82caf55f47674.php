@@ -477,6 +477,6 @@ class __TwigTemplate_edc03ebc2a8a481f319725e34ea48fa2f6c26d707bce39edd5bd22cb3e4
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

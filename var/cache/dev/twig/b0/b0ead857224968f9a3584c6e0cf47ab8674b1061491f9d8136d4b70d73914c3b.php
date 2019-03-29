@@ -468,6 +468,6 @@ class __TwigTemplate_6209058b0f460ed88b7d4f634807021ac9e278bd5721e50a8f636d6cbc4
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/validator.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
+", "@WebProfiler/Collector/validator.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
     }
 }

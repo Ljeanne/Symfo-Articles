@@ -95,6 +95,6 @@ class __TwigTemplate_638d9a54b021e885524535409bd7cac05098065d9fecfee9870ee40eeeb
         </div>
     </div>
 </div>
-", "@WebProfiler/Profiler/header.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
+", "@WebProfiler/Profiler/header.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
     }
 }

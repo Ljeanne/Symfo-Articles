@@ -69,6 +69,6 @@ class __TwigTemplate_9f5441299f50ae1881f894e7cf7087ecff43d0892d95de64dfb19da2949
         <?php echo \$view['form']->widget(\$form); ?>
     </td>
 </tr>
-", "@Framework/FormTable/hidden_row.html.php", "/Users/Administrateur/Desktop/esylius/vendor/symfony/framework-bundle/Resources/views/FormTable/hidden_row.html.php");
+", "@Framework/FormTable/hidden_row.html.php", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/framework-bundle/Resources/views/FormTable/hidden_row.html.php");
     }
 }

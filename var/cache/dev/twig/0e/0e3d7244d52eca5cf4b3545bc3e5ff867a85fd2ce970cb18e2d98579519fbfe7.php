@@ -170,6 +170,6 @@ class __TwigTemplate_9f3f1fa68ec4cb6ce924e0b6a488e5c6764acd194b8f1dac1a3e1889f32
         {% endif %}
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/open.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
+", "@WebProfiler/Profiler/open.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
     }
 }

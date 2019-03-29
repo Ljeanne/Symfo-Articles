@@ -217,6 +217,6 @@ class __TwigTemplate_6cb753b15ff31edfbcfb30ec9bec53eb609cba4d0cd55e8e67c750fa1b9
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/exception.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
+", "@WebProfiler/Collector/exception.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
     }
 }

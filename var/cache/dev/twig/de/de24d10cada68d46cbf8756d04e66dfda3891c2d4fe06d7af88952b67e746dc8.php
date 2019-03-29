@@ -77,6 +77,6 @@ class __TwigTemplate_96aa238f2a8ac334ea7cd17e122a28518fdbaf4f3e76ab90ca1a26c8a40
         return new Source("<?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "@Twig/Exception/error.xml.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
+", "@Twig/Exception/error.xml.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
     }
 }

@@ -123,6 +123,6 @@ class __TwigTemplate_b12901ad2e16bf2e53565c7bdb1c37234d3cba2fbb21af5f082af95d66f
         </div>
     </body>
 </html>
-", "@Twig/Exception/error.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/Exception/error.html.twig");
+", "@Twig/Exception/error.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/Exception/error.html.twig");
     }
 }

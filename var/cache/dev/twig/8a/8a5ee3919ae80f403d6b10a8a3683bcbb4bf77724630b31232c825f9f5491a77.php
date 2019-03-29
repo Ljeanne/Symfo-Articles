@@ -106,6 +106,6 @@ class __TwigTemplate_b0fe335147c34857438f729702ff686b4705db6d86071a41def72a94041
     </exception>
 {% endfor %}
 </error>
-", "@Twig/Exception/exception.xml.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/Exception/exception.xml.twig");
+", "@Twig/Exception/exception.xml.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/Exception/exception.xml.twig");
     }
 }

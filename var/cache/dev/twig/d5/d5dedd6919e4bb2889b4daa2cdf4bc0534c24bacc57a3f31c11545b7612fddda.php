@@ -169,6 +169,6 @@ class __TwigTemplate_1e9801c5d1d236b6efeda2475642eee933bca81a832ddf955b88cab3c9a
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

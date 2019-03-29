@@ -69,6 +69,6 @@ class __TwigTemplate_c7dfe6f4e685439c8b993b1fa810691d9ca84d6f6105300c51fd532e9a9
 <?php else: ?>
 <?php echo \$view['form']->block(\$form, 'form_widget_simple')?>
 <?php endif ?>
-", "@Framework/Form/form_widget.html.php", "/Users/Administrateur/Desktop/esylius/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php");
+", "@Framework/Form/form_widget.html.php", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php");
     }
 }

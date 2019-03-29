@@ -2,44 +2,66 @@
 
 namespace App\DataFixtures;
 
-use App\Entity\Product;
-use App\Entity\User;
+use App\Entity\Article;
+use App\Entity\Author;
+use App\Entity\Category;
+use App\Entity\Comment;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
-use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 class AppFixtures extends Fixture
 {
-    private $encoder;
-
-    public function __construct(UserPasswordEncoderInterface $passwordEncoder)
-    {
-        $this->encoder = $passwordEncoder;
-    }
-
     public function load(ObjectManager $manager)
     {
-        // Product fixtures
-        for ($i = 0; $i < 10; $i++) {
-            $product = new Product();
-            $product->setName('Product ' . $i);
-            $product->setPrice(rand(10, 50));
-            $product->setSku('product-' . $i);
-            $product->setDescription('Description product' . $i);
+        // Categories
+        $categories = [];
 
-            $manager->persist($product);
+        for ($i = 0; $i < 10; $i++) {
+            $category = new Category();
+            $category->setName("Category " . $i);
+
+            $manager->persist($category);
+
+            $categories[] = $category;
         }
 
-        // User fixtures
-        $user = new User();
-        $user->setEmail('ludovic.jn@gmail.com');
-        $user->setRoles([
-            'ROLE_ADMIN',
-            'ROLE_API',
-        ]);
-        $user->setPassword($this->encoder->encodePassword($user, 'password'));
+        // Authors
+        $authors = [];
 
-        $manager->persist($user);
+        for ($i = 0; $i < 8; $i++) {
+            $usernames = ["Jhon", "Brenda", "Mickael", "Jessica", "Carmen", "Jason", "Jack", "Rebecca"];
+
+            $author = new Author();
+            $author->setUsername($usernames[$i]);
+
+            $manager->persist($author);
+
+            $authors[] = $author;
+        }
+
+        // Articles
+        $articles = [];
+
+        for ($i = 0; $i < 25; $i++) {
+            $article = new Article();
+            $article->setTitle("Article " . $i);
+            $article->setText("You are currently reading the article n°" . $i);
+            $article->setCategory($categories[rand(0, 9)]);
+            $article->setAuthor($authors[rand(0, 7)]);
+
+            $manager->persist($article);
+
+            $articles[] = $article;
+        }
+
+        // Articles
+        for ($i = 0; $i < 100; $i++) {
+            $comment = new Comment();
+            $comment->setText("My comment is the comment n°" . $i);
+            $comment->setArticle($articles[rand(0, 24)]);
+
+            $manager->persist($comment);
+        }
 
         $manager->flush();
     }

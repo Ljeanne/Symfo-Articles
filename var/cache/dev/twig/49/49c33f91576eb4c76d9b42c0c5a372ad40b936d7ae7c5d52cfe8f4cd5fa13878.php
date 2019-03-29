@@ -77,6 +77,6 @@ class __TwigTemplate_e4bae328ee0f2d04257b09365bed0b9a207e24c4dd83d6978ca47c28666
 {{ status_code }} {{ status_text }}
 
 */
-", "@Twig/Exception/error.js.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/Exception/error.js.twig");
+", "@Twig/Exception/error.js.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/Exception/error.js.twig");
     }
 }

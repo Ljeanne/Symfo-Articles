@@ -222,6 +222,6 @@ class __TwigTemplate_f7e4a2f4c10d2057fba6d72ffd74ade27ba9fd932229f8837750171904f
         {{ include('@Twig/base_js.html.twig') }}
     </body>
 </html>
-", "@Twig/layout.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/layout.html.twig");
+", "@Twig/layout.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/layout.html.twig");
     }
 }

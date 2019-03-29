@@ -93,6 +93,6 @@ class __TwigTemplate_51764f104fbaa97d0121144beea565faf3f001848cd0a6b78e5da05ff66
             </trace>
 {% endfor %}
         </traces>
-", "@Twig/Exception/traces.xml.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
+", "@Twig/Exception/traces.xml.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
     }
 }

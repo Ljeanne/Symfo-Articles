@@ -96,11 +96,11 @@ class __TwigTemplate_9ef9ed8d561b4569c8f2e69d91dcc49ec71f726dbeae160666d7facd3c1
     <ul>
         <li>Your controller at <code><a href=\"";
         // line 16
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/Users/Administrateur/Desktop/esylius/src/Controller/IndexController.php", 0), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/Users/pgrimaud/Documents/dev/iim-ecommerce/src/Controller/IndexController.php", 0), "html", null, true);
         echo "\">src/Controller/IndexController.php</a></code></li>
         <li>Your template at <code><a href=\"";
         // line 17
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/Users/Administrateur/Desktop/esylius/templates/index/index.html.twig", 0), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/Users/pgrimaud/Documents/dev/iim-ecommerce/templates/index/index.html.twig", 0), "html", null, true);
         echo "\">templates/index/index.html.twig</a></code></li>
     </ul>
 </div>
@@ -145,11 +145,11 @@ class __TwigTemplate_9ef9ed8d561b4569c8f2e69d91dcc49ec71f726dbeae160666d7facd3c1
 
     This friendly message is coming from:
     <ul>
-        <li>Your controller at <code><a href=\"{{ '/Users/Administrateur/Desktop/esylius/src/Controller/IndexController.php'|file_link(0) }}\">src/Controller/IndexController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/Users/Administrateur/Desktop/esylius/templates/index/index.html.twig'|file_link(0) }}\">templates/index/index.html.twig</a></code></li>
+        <li>Your controller at <code><a href=\"{{ '/Users/pgrimaud/Documents/dev/iim-ecommerce/src/Controller/IndexController.php'|file_link(0) }}\">src/Controller/IndexController.php</a></code></li>
+        <li>Your template at <code><a href=\"{{ '/Users/pgrimaud/Documents/dev/iim-ecommerce/templates/index/index.html.twig'|file_link(0) }}\">templates/index/index.html.twig</a></code></li>
     </ul>
 </div>
 {% endblock %}
-", "index/index.html.twig", "/Users/Administrateur/Desktop/esylius/templates/index/index.html.twig");
+", "index/index.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/templates/index/index.html.twig");
     }
 }

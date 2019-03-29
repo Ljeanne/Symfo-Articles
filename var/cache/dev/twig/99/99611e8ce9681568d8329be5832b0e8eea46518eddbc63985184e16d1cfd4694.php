@@ -167,6 +167,6 @@ class __TwigTemplate_6c5123f9ea47a33808b99371d003e99d7eedba013e9f8f49de8c77a5e6f
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/Users/Administrateur/Desktop/esylius/templates/base.html.twig");
+", "base.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/templates/base.html.twig");
     }
 }

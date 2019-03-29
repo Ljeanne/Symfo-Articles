@@ -202,6 +202,6 @@ class __TwigTemplate_7a684223cf677690f01bfb76d17fd15ea22f66237b612d22ffaf147541f
         })|raw }}
     </div>
 {% endif %}
-", "@Twig/Exception/trace.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
+", "@Twig/Exception/trace.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
     }
 }

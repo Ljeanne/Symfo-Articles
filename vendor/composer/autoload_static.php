@@ -14,7 +14,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        '0ccdf99b8f62f02c52cba55802e0c2e7' => __DIR__ . '/..' . '/zircote/swagger-php/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -33,7 +32,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         ),
         'T' => 
         array (
-            'Twig\\Extensions\\' => 16,
             'Twig\\' => 5,
         ),
         'S' => 
@@ -49,7 +47,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
-            'Symfony\\Component\\Templating\\' => 29,
             'Symfony\\Component\\Stopwatch\\' => 28,
             'Symfony\\Component\\Serializer\\' => 29,
             'Symfony\\Component\\Security\\Http\\' => 32,
@@ -94,7 +91,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
             'Symfony\\Bridge\\PhpUnit\\' => 23,
             'Symfony\\Bridge\\Monolog\\' => 23,
             'Symfony\\Bridge\\Doctrine\\' => 24,
-            'Swagger\\' => 8,
             'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
         ),
         'P' => 
@@ -105,36 +101,31 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
-            'Pagerfanta\\' => 11,
             'PackageVersions\\' => 16,
         ),
-        'N' => 
+        'O' => 
         array (
-            'Nelmio\\ApiDocBundle\\' => 20,
-            'Negotiation\\' => 12,
-            'Namshi\\JOSE\\' => 12,
+            'Overblog\\GraphiQLBundle\\' => 24,
+            'Overblog\\GraphQLGenerator\\' => 26,
+            'Overblog\\GraphQLBundle\\' => 23,
         ),
         'M' => 
         array (
             'Monolog\\' => 8,
         ),
-        'L' => 
+        'G' => 
         array (
-            'Lexik\\Bundle\\JWTAuthenticationBundle\\' => 37,
-            'Lcobucci\\JWT\\' => 13,
+            'GraphQL\\' => 8,
         ),
         'F' => 
         array (
             'Fig\\Link\\' => 9,
             'Facebook\\WebDriver\\' => 19,
-            'FOS\\RestBundle\\' => 15,
         ),
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
             'EasyCorp\\EasyLog\\' => 17,
-            'EasyCorp\\Bundle\\EasyAdminBundle\\' => 32,
-            'EXSyst\\Component\\Swagger\\' => 25,
         ),
         'D' => 
         array (
@@ -177,10 +168,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
-        ),
-        'Twig\\Extensions\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/twig/extensions/src',
         ),
         'Twig\\' => 
         array (
@@ -229,10 +216,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
-        ),
-        'Symfony\\Component\\Templating\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/templating',
         ),
         'Symfony\\Component\\Stopwatch\\' => 
         array (
@@ -410,10 +393,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         array (
             0 => __DIR__ . '/..' . '/symfony/doctrine-bridge',
         ),
-        'Swagger\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zircote/swagger-php/src',
-        ),
         'Sensio\\Bundle\\FrameworkExtraBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/sensio/framework-extra-bundle',
@@ -442,37 +421,29 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Pagerfanta\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/src/Pagerfanta',
-        ),
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
         ),
-        'Nelmio\\ApiDocBundle\\' => 
+        'Overblog\\GraphiQLBundle\\' => 
         array (
-            0 => __DIR__ . '/..' . '/nelmio/api-doc-bundle',
+            0 => __DIR__ . '/..' . '/overblog/graphiql-bundle',
         ),
-        'Negotiation\\' => 
+        'Overblog\\GraphQLGenerator\\' => 
         array (
-            0 => __DIR__ . '/..' . '/willdurand/negotiation/src/Negotiation',
+            0 => __DIR__ . '/..' . '/overblog/graphql-bundle/lib/generator/src',
         ),
-        'Namshi\\JOSE\\' => 
+        'Overblog\\GraphQLBundle\\' => 
         array (
-            0 => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE',
+            0 => __DIR__ . '/..' . '/overblog/graphql-bundle/src',
         ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Lexik\\Bundle\\JWTAuthenticationBundle\\' => 
+        'GraphQL\\' => 
         array (
-            0 => __DIR__ . '/..' . '/lexik/jwt-authentication-bundle',
-        ),
-        'Lcobucci\\JWT\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+            0 => __DIR__ . '/..' . '/webonyx/graphql-php/src',
         ),
         'Fig\\Link\\' => 
         array (
@@ -482,10 +453,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         array (
             0 => __DIR__ . '/..' . '/facebook/webdriver/lib',
         ),
-        'FOS\\RestBundle\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/friendsofsymfony/rest-bundle',
-        ),
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
@@ -493,14 +460,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
         'EasyCorp\\EasyLog\\' => 
         array (
             0 => __DIR__ . '/..' . '/easycorp/easy-log-handler/src',
-        ),
-        'EasyCorp\\Bundle\\EasyAdminBundle\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/easycorp/easyadmin-bundle/src',
-        ),
-        'EXSyst\\Component\\Swagger\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/exsyst/swagger/src',
         ),
         'Doctrine\\ORM\\' => 
         array (
@@ -570,10 +529,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
     public static $prefixesPsr0 = array (
         'T' => 
         array (
-            'Twig_Extensions_' => 
-            array (
-                0 => __DIR__ . '/..' . '/twig/extensions/lib',
-            ),
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
@@ -584,13 +539,6 @@ class ComposerStaticInita79e50111f4d715cb6dc29070551e47b
             'ProxyManager\\' => 
             array (
                 0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src',
-            ),
-        ),
-        'J' => 
-        array (
-            'JsonpCallbackValidator' => 
-            array (
-                0 => __DIR__ . '/..' . '/willdurand/jsonp-callback-validator/src',
             ),
         ),
         'D' => 

@@ -1,0 +1,15 @@
+<?php
+return array (
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\AuthorInputType' => __DIR__ . '/AuthorInputType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\ArticleInputType' => __DIR__ . '/ArticleInputType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\CommentType' => __DIR__ . '/CommentType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\CategoryInputType' => __DIR__ . '/CategoryInputType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\QueryType' => __DIR__ . '/QueryType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\ArticleType' => __DIR__ . '/ArticleType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\CommentInputType' => __DIR__ . '/CommentInputType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\CategoryType' => __DIR__ . '/CategoryType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\AuthorType' => __DIR__ . '/AuthorType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\MutationSuccessType' => __DIR__ . '/MutationSuccessType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\MutationType' => __DIR__ . '/MutationType.php',
+  'Overblog\\GraphQLBundle\\__DEFINITIONS__\\PageInfoType' => __DIR__ . '/PageInfoType.php',
+);

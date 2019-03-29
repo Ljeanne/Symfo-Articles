@@ -1671,6 +1671,6 @@ class __TwigTemplate_f69f98caf2005c6bb3c2fbd61a21fcd20abfdbdd2c12e9b5132df5be0e9
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

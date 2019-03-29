@@ -1123,6 +1123,6 @@ class __TwigTemplate_0ec73dc7e5df066e9fbe860e11824f093360a086255fbfc1bea0b9a8b60
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/request.html.twig", "/Users/Administrateur/Desktop/esylius/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
+", "@WebProfiler/Collector/request.html.twig", "/Users/Administrateur/Desktop/Symfo-Articles/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
     }
 }
