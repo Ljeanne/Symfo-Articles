@@ -16,6 +16,6 @@ if (!\class_exists(srcApp_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerVrx4T2E\srcApp_KernelDevDebugContainer([
     'container.build_hash' => 'Vrx4T2E',
-    'container.build_id' => 'c2980b34',
-    'container.build_time' => 1553898926,
+    'container.build_id' => '30df61ea',
+    'container.build_time' => 1553901191,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerVrx4T2E');
